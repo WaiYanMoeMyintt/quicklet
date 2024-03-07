@@ -6,7 +6,7 @@
 
 :root {
    --bg-primary: #191b1f;
-   --second-primary:#292d32;
+   --bg-second-primary:#292d32;
    --btn-primary:#3666e1;
 
    --first-primary:#ff7452;
@@ -29,4 +29,10 @@
 body {
   height: 120vh;
   font-family: "Poppins", sans-serif;
+  background-color: #121416;
+}
+.parent_container{
+  background-color: var( --bg-second-primary);
+  padding: .5rem .5rem;
+  box-shadow: 0px 1px 11px -2px #141618;
 }
