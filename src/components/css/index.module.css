@@ -1,8 +1,10 @@
 .nav{
     background-color:#191b1f;
 }
-.sidebar_nav{
-    /* background-color: red; */
+.active_menu{
+    width: 200px;
+    height: 100vh;
+    transition: all 1s ease-in;
 }
 .sidebar_nav h3 {
     font-size: 1.8rem;
@@ -69,4 +71,21 @@
 }
 .create_board_container:active{
     transform: scale(0.97);
+}
+.dark_mode{
+    background-color: var(--bg-second-primary); 
+    padding: .2rem 0.6rem;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+.darkIcon {
+    background-color: var(--bg-primary);
+    padding: .4rem 1.5rem;
+    border-radius: .4rem;
+    transform: scale(1.1);
+    transition: scale 0.7s ease;
+}
+.darkIconBlind{
+    background-color: transparent;
+    transition: all 0.7s ease;
 }
